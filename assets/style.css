@@ -474,15 +474,11 @@ color: var(--primary-color-dark);
 
 @media(width > 400px)
 {
-    .feature_container{
-        grid-template-columns: repeat(1,1fr);
-    }
+    
     .destination_grid{
         grid-template-columns: repeat(2,1fr);
     }
-    .package_grid{
-        grid-template-columns: repeat(2,1fr);
-    }
+    
     .package_grid img{
         height: 300px;
     }
@@ -491,6 +487,7 @@ color: var(--primary-color-dark);
     .swiper-slide{
         max-width: calc((var(--max-width) / 1 - 1.5rem ));
     }
+
     
     
 }
@@ -498,7 +495,12 @@ color: var(--primary-color-dark);
 @media(width<768px){
     .footer__container{
         display:grid;
-    
+}
+.package_grid{
+    grid-template-columns: repeat(1,1fr);
+}
+.feature_container{
+    grid-template-columns: repeat(1,1fr);
 }
 
 }
