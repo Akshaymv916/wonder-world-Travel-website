@@ -491,14 +491,14 @@ color: var(--primary-color-dark);
 
 @media(width< 768px){
     .header_container h1{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
     .header_container h1 span{
-        font-size:5rem;
+        font-size:4rem;
     }
 
     .header_container p{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .swiper-slide{
@@ -506,7 +506,7 @@ color: var(--primary-color-dark);
     }
     .footer__container{
         display: grid;
-    }
+    
 }
 
 @media(width > 768px){
