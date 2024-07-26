@@ -486,10 +486,6 @@ color: var(--primary-color-dark);
     .package_grid img{
         height: 300px;
     }
-    
-}
-
-@media(max-width: 720px){
     .header_container h1{
         font-size: 1.5rem;
     }
@@ -508,7 +504,9 @@ color: var(--primary-color-dark);
         display: grid;
     
 }
+    
 }
+
 
 @media(width > 768px){
     nav{
