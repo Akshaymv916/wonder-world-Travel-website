@@ -472,7 +472,7 @@ color: var(--primary-color-dark);
 
 
 
-@media(width > 480px)
+@media(width > 400px)
 {
     .feature_container{
         grid-template-columns: repeat(2,1fr);
