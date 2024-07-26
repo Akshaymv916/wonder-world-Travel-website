@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made for you travels</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+       
+</head>
+
+<style>
+    .name{
+        background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("assets/header.jpg");
+    }
+    
+    .discount{
+        background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)), url("assets/images/3d-icon-traveling-vacation.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .footer{
+        background-image:linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.8)), url("assets/header.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+
+</style>
+
+<body>
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+                <a href="#" class="logo"><span>Wonder&nbsp;</span>World</a>
+            </div>
+            <div class="nav_menu_btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav_links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="home">services</a></li>
+            <li><a href="home">packages</a></li>
+            <li><a href="home">destinations</a></li>
+            <li><a href="#client">clients</a></li>
+        </ul>
+    </nav>
+    <header class="name" id="home">
+        <div class="section_container header_container">
+            <h1>Let's Discover The<br/><span>World Together</span></h1>
+            <P>Live your best momments</P>
+            <form action="/">
+                <div class="input_group">
+                    <span><i class="ri-map-2-fill"></i></span>
+                    <input type="text" placeholder="where are you going">
+                </div>
+                <div class="input_group">
+                    <span><i class="ri-list-ordered-2"></i></span>
+                    <input type="text" placeholder="Tour type">
+                </div>
+                <div class="input_group">
+                    <span><i class="ri-map-pin-2-fill"></i></span>
+                    <input type="text" placeholder="Location">
+                </div>
+                <div class="input_group">
+                    <button class="btn">Search</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <section class="section_container feature_container" id="service">
+        <div class="feature_card">
+            <img src="assets/images/world-wide-web_1006771.png">
+            <div>
+                <h4>Worldwide Coverage </h4>
+                <p>From local gems to global hotspots, Discover new places with us!</p>
+            </div>
+        </div>
+        <div class="feature_card">
+            <img src="assets/images/best-price_2854306.png">
+            <div>
+                <h4>Competitive Pricing</h4>
+                <p>Our competitive pricing ensures you get the best value for your travel adventures. Book now!</p>
+            </div>
+        </div>
+        <div class="feature_card">
+            <img src="assets/images/presentation_1436716.png">
+            <div>
+                <h4>Best Services</h4>
+                <p>Enjoy premium service and seamless travel with our expert team.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="destination" id="destination">
+        <div class="section_container destination_container">
+            <h2 class="section_header">Top destinations</h2>
+            <p class="section_description">Find out best destinations in the world</p>
+        <div class="destination_grid">
+            <div class="destination_card">
+                <img src="assets/images/pitons.avif">
+                <div class="destination_content">The Pitons, St. Lucia </div>
+            </div>
+            <div class="destination_card">
+                <img src="assets/images/oshino.avif">
+                <div class="destination_content">Oshino Hakkai</div>
+            </div>
+            <div class="destination_card">
+                <img src="assets/images/kuang.avif">
+                <div class="destination_content">Kuang Si Falls, Laos</div>
+            </div>
+            <div class="destination_card">
+                <img src="assets/images/sinta.avif">
+                <div class="destination_content">Sintra, Portugal</div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="discount">
+        <div class="section_container discount_container">
+            <h2>Get upto 60% discount <br/><span>By joining this summer</span> </h2>
+        <div class="discount_btn">
+            <button class="btn">Join us</button>
+        </div>
+        </div>
+    </section>
+
+    <section class="section_container package_container" id="package">
+        <h2 class="section_header">Featured packages</h2>
+        <p class="section_description">
+            we will help you find the trip thats perfect for you
+        </p>
+        <div class="package_grid">
+            <div class="package_card">
+                <img src="assets/iguazu.avif">
+                <div class="package_details">
+                    <i class="ri-map-pin-2-fill">&nbsp;Brazil</i>
+                    <i class="ri-calendar-2-fill">&nbsp;5 days</i>
+                    <i class="ri-user-line">&nbsp;2 person</i>
+                </div>
+                <div class="package_card_details">
+                    <h4>Iguazu Falls, Brazil</h4>
+                    <p>Discover amazing places of the world with us</p>
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$130</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="package_card">
+                <img src="assets/scotland.avif">
+                <div class="package_details">
+                    <i class="ri-map-pin-2-fill">&nbsp;Scotland</i>
+                    <i class="ri-calendar-2-fill">&nbsp;6 days</i>
+                    <i class="ri-user-line">&nbsp;2 person</i>
+                </div>
+                <div class="package_card_details">
+                    <h4>Isle of Skye, Scotland</h4>
+                    <p>Discover amazing places of the world with us</p>
+
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$130</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="package_card">
+                <img src="assets/eng.jpg">
+                <div class="package_details">
+                    <i class="ri-map-pin-2-fill">&nbsp; England</i>
+                    <i class="ri-calendar-2-fill">&nbsp;6 days</i>
+                    <i class="ri-user-line">&nbsp;2 person</i>
+                </div>
+                <div class="package_card_details">
+                    <h4>Hampshire, England</h4>
+                    <p>Discover amazing places of the world with us</p>
+
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$130</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="package_card">
+                <img src="assets/tanzania.avif">
+                <div class="package_details">
+                    <i class="ri-map-pin-2-fill">&nbsp;Island </i>
+                    <i class="ri-calendar-2-fill">&nbsp;7 days</i>
+                    <i class="ri-user-line">&nbsp;2 person</i>
+                </div>
+                <div class="package_card_details">
+                    <h4>Zanzibar, Tanzania </h4>
+                    <p>Discover amazing places of the world with us</p>
+
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$130</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="package_card">
+                <img src="assets/myanmar.jpg">
+                <div class="package_details">
+                    <i class="ri-map-pin-2-fill">&nbsp;Myanmar</i>
+                    <i class="ri-calendar-2-fill">&nbsp;5 days</i>
+                    <i class="ri-user-line">&nbsp;2 person</i>
+                </div>
+                <div class="package_card_details">
+                    <h4>Bagan, Myanmar</h4>
+                    <p>Discover amazing places of the world with us</p>
+
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$130</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="package_card">
+                <img src="assets/italy.avif">
+                <div class="package_details">
+                    <i class="ri-map-pin-2-fill">&nbsp;Italy</i>
+                    <i class="ri-calendar-2-fill">&nbsp;6 days</i>
+                    <i class="ri-user-line">&nbsp;2 person</i>
+                </div>
+                <div class="package_card_details">
+                    <h4>Amalfi Coast, Italy</h4>
+                    <p>Discover amazing places of the world with us</p>
+
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$130</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_container client_container" id="client">
+        <h2 class="section_header">Client Reviews</h2>
+        <p class="section_description">
+            we have may happy customers who booked holidays with us
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="client_card">
+                    <img src="assets/review3.jpg">
+                    <span><i class="ri-double-quotes-1"></i></span>
+                    <p>The instant booking feature is a game changer.i secured drea vacation to bali in mintues</p>
+                    <h4>James carter</h4>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="client_card">
+                    <img src="assets/review1.jpg">
+                    <span><i class="ri-double-quotes-1"></i></span>
+                    <p>The instant booking feature is a game changer.i secured drea vacation to bali in mintues</p>
+                    <h4>David thomson</h4>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="client_card">
+                    <img src="assets/review2.jpg">
+                    <span><i class="ri-double-quotes-1"></i></span>
+                    <p>The instant booking feature is a game changer.i secured drea vacation to bali in mintues</p>
+                    <h4>Samantha lee</h4>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="client_card">
+                    <img src="assets/review2.jpg">
+                    <span><i class="ri-double-quotes-1"></i></span>
+                    <p>The instant booking feature is a game changer.i secured drea vacation to bali in mintues</p>
+                    <h4>Samantha lee</h4>
+                </div>
+            </div>
+            
+            ...
+            </div>
+        
+            <div class="swiper-pagination"></div>
+        </div>
+       
+    </section>
+
+    <footer class="footer">
+        <div class="section_container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <a href="#" class="logo">Wonder<span>&nbsp;World</span></a>
+            </div>
+            <p>
+              Explore the world's best destinations, enjoy unbeatable prices, and
+              book your perfect getaway instantly.
+            </p>
+            <h4>CONNECT WITH US</h4>
+            <ul class="footer__socials">
+              <li>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-google-fill"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>LINKS</h4>
+            <ul class="footer__links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>DESTINATIONS</h4>
+            <ul class="footer__links">
+              <li><a href="#">China</a></li>
+              <li><a href="#">Venezuela</a></li>
+              <li><a href="#">Brazil</a></li>
+              <li><a href="#">Australia</a></li>
+              <li><a href="#">London</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>ACTIVITIES</h4>
+            <ul class="footer__links">
+              <li><a href="#">Trekking</a></li>
+              <li><a href="#">Peak Climbing</a></li>
+              <li><a href="#">Biking</a></li>
+              <li><a href="#">River Rafting</a></li>
+              <li><a href="#">Cultural Tour</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bar">
+          Copyright © 2024 Web Design Mastery. All rights reserved.
+        </div>
+      </footer>
+
+    <script src="assets/script.js"></script>
+    <script src="assets/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '60px',
+            duration: 2000,
+            delay: 400,
+        });
+
+        sr.reveal('.header_container');
+        sr.reveal('.feature_container');
+        sr.reveal('.feature_card');
+        sr.reveal('.destination_grid',{interval:200});
+        sr.reveal('.discount_container',{interval:200});
+        sr.reveal('.package_container')
+        sr.reveal('.swiper-slide',{interval:100})
+
+
+
+
+
+
+        const swiper = new Swiper(".swiper", {
+            slidesPerView: "auto",
+            spaceBetween: 20,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+
+</body>
+
+</html>
