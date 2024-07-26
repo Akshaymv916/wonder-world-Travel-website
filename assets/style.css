@@ -508,6 +508,7 @@ color: var(--primary-color-dark);
         display: grid;
     
 }
+}
 
 @media(width > 768px){
     nav{
