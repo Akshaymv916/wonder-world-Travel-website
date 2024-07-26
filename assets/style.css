@@ -509,7 +509,7 @@ color: var(--primary-color-dark);
     
 }
 
-@media(width > 768px){
+@media(max-width: 720px){
     nav{
         position: static;
         padding: 2rem 1rem;
