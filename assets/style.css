@@ -489,7 +489,7 @@ color: var(--primary-color-dark);
     
 }
 
-@media(max-width: 720p){
+@media(max-width: 720px){
     .header_container h1{
         font-size: 1.5rem;
     }
