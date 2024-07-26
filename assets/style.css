@@ -308,6 +308,8 @@ nav{
     z-index: -1;
 }
 
+/* discount section */
+
 .discount_container{
     text-align: center;
 }
@@ -323,6 +325,8 @@ nav{
 .discount_container h2 span{
     font-size: 2rem;
 }
+
+/* package section */
 
 .package_grid{
     margin-top: 4rem;
@@ -401,6 +405,8 @@ margin-top: 2rem;
 color: var(--primary-color-dark);
 }
 
+
+/* footer section */
 
 .footer__container{
     display:flex;
@@ -501,6 +507,15 @@ color: var(--primary-color-dark);
 }
 .feature_container{
     grid-template-columns: repeat(1,1fr);
+}
+.destination_content{
+    font-size: 1.2rem;
+}
+.discount_container h2{
+    font-size: 2rem;
+}
+.discount_container h2  span{
+font-size: 1.5rem;
 }
 
 }
